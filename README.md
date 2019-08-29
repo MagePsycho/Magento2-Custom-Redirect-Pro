@@ -70,6 +70,12 @@ This extension supports both relative and absolute redirection URL, which in its
 * [View Backend Demo](http://m2-custom-redirect-pro.mage-expo.com/admin_m2demo)
 
 ## Changelog
+
+**Version 1.0.1 (2019-07-15)**
+- Refactored the code
+- Checked the compatibility with Magento 2.3.x
+
+
 **Version 1.0.0 (2017-05-29)**
     
 * Initial Release.    
