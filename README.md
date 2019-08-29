@@ -56,13 +56,15 @@ This extension supports both relative and absolute redirection URL, which in its
 1. Download the extension .zip file and extract the files.
 1. Copy the extension files from src/ folder to the {magento2-root-dir}/
 1. Run the following series of command from SSH console of your server:
-
-`php bin/magento module:enable MagePsycho_RedirectPro MagePsycho_GroupSwitcherPro --clear-static-content`
-
-`php bin/magento setup:upgrade`
+```
+php bin/magento module:enable MagePsycho_RedirectPro MagePsycho_GroupSwitcherPro --clear-static-content
+php bin/magento setup:upgrade
+```
 
 5. Flush the store cache
-`php bin/magento cache:flush`
+```
+php bin/magento cache:flush
+```
 6. Go to Admin > Stores > Configuration > MagePsycho > Custom Redirect Pro > Configure your settings here...
 
 ## Live Demo:
@@ -77,3 +79,45 @@ This extension supports both relative and absolute redirection URL, which in its
 **Version 1.0.0 (2017-05-29)**
     
 - Initial Release.    
+
+### People also search:
+
+- magento 2 redirect
+- magento 2 redirect customer
+- magento 2 advanced redirect
+- magento 2 redirect extension
+- magento 2 redirect module
+- magento 2 redirect extension free
+- magento 2 custom redirect
+- magento 2 custom redirect extension
+- magento 2 custom login redirect
+- magento 2 custom login redirect extension
+- magento 2 account redirect
+- magento 2 custom account redirect
+- magento 2 registration redirect
+- magento 2 logout redirect
+- magento 2 custom logout redirect
+- magento 2 custom registration redirect
+- magento 2 newsletter subscription redirect
+- magento 2 custom newsletter subscription redirect
+- magento 2 custom new account email template
+- magento 2 customer group select
+- magento 2 customer group switch
+- magento 2 redirect to previous page
+- magento 2 redirect to referral
+- magento 2 redirect after login
+- magento 2 redirect after registration
+- magento 2 redirect after new account
+- magento 2 redirect after logout
+- magento 2 redirect after subscription
+
+
+### Other FREE Magento 2 Extensions on GitHub
+
+- [Custom Shipping Module for Magento 2](https://github.com/MagePsycho/magento2-custom-shipping)
+- [Magento 2 Easy Template Path Hints](https://github.com/MagePsycho/magento2-easy-template-path-hints)
+- [Magento 2 Storefront Links Manager](https://github.com/MagePsycho/magento2-storefront-links-manager)
+- [Magento 2 Custom Customer Address Attribute](https://github.com/MagePsycho/magento2-custom-customer-address-attribute)
+- [Magento 2 Starter Theme](https://github.com/MagePsycho/magento2-starter-theme)
+- [Magento 2 Bash Script Installer](https://github.com/MagePsycho/magento2-installer-bash-script)
+- [Bash Script: Backup Magento2 Code + Database](https://github.com/MagePsycho/magento2-db-code-backup-bash-script)
